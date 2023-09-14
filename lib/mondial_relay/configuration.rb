@@ -7,7 +7,7 @@ module MondialRelay
       parcel_shops
     ).freeze
 
-    API_URL = 'http://www.mondialrelay.fr/webservice/'
+    API_URL = 'https://www.mondialrelay.fr/webservice/'
 
     attr_accessor :api_url, :api_timeout, :api_max_retries,
       :enabled_services, :debug, :monitor, :logger
